@@ -3,11 +3,11 @@
 #include<stdlib.h>
 int main()
 {
-	int p;
-	char r=0.9;
+	long double p,r;
+	r=0.09;
+	p=1+r;
 	double k=pow(p,10);
-	p=(1+r);
-	printf("%d",k);
+	printf("%lf",k);
 	system("PAUSE");
 	return 0;
 }
