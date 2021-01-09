@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main ()
+{
+	int a;
+   /* for 循环执行 */
+      for(a=10; a<20;a=a+1)
+   {
+      printf("a 的值： %i\n", a);
+   }
+   getchar(); 
+   return 0;
+}
