@@ -2,7 +2,7 @@
 int main()
 {   
 	int i=0;
-	char a[26];   /*定义数组类型为字母*/
+	char a[26];   /*定义数组的类型为字母*/
 	for(;i<=25;i++)
 	{
 		//printf("%d",i);
