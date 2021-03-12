@@ -1,6 +1,6 @@
 #include<stdio.h>
 enum Season{SPRING=1,SUMMERE,AUTUMN,WINTER}season;
-void main()/*返回空值 不用返回0*/
+void main()/*无返回值*/
 {
 printf("输入你喜欢的季节 1.spring,2.summer 3.autumn 4.winter:\n");
 scanf("%d",&season);
