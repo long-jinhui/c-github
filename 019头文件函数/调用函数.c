@@ -3,7 +3,7 @@
 /*void 无返回值*/ 
 /*形参列表(int a,int b)*/
 /*函数变量名要等同于形参列表*/ 
-void test(int a,int b)
+void test(int a,int b)/*括号内为形参*/ 
 {
 	int e;
 	if(a>b){a++;e=a;/* a++ 等于 a=a+1 */ 
@@ -21,7 +21,7 @@ int main()
 	scanf("%d",&c);
 	printf("输入b:"); 
 	scanf("%d",&d);
-	test(c,d);/*调用函数*/
+	test(c,d);/*调用函数*/   /*括号内为实参*/ 
 	
 	int e=6,f=7;
 	printf("任务二结果为");
