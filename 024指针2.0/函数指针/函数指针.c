@@ -15,13 +15,12 @@ int main(){
 	 
 	printf("输入两个数字:");
 	scanf("%d %d",&x,&y);
-	 maxV=(*pmax)(x,y);
-	 //(*pmax)取到函数首地址 (x,y)执行函数 
+	 maxV=(*pmax)(x,y);//================maxV=pmax(x,y); 
+	 //(*pmax)取到函数首地址 (x,y)执行函数   
 	 
 	 printf("最大的数字为%d pmax存的地址%p pmax本身的地址%p",maxV,pmax,&pmax);
 	 //pmax存放的地址是max的首地址
 	 //(*pmax)取到max首地址  (10,20)传入实参 
 	 getchar();
-	 return 0; 
-} 
-
+	 return 0;
+}
